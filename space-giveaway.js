@@ -142,7 +142,7 @@ client.on("message", message => {
   if (message.channel.type === "dm") return;
 });
 
-client.login(process.env.TOKEN);
+client.login(ayarlar.token);
 
 client.on("message", message => {
   if (message.channel.id == "844812716899696640") {
